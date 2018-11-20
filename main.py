@@ -1,9 +1,15 @@
 import datetime
+import sys
+
 import requests
 from bs4 import BeautifulSoup
 
 url = 'https://pc.video.dmkt-sp.jp/ti/10020330'
-r = requests.get(url)
+
+try:
+    r = requests.get(url)
+except:
+    sys.exit(1)
 soup = BeautifulSoup(r.text, 'html.parser')
 
 time = datetime.datetime.now()
