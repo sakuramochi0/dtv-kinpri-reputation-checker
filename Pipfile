@@ -21,7 +21,7 @@ automat = "==0.6.0"
 automium = "==0.2.6"
 automium-web = "==0.1.1"
 babel = "==2.5.0"
-"beautifulsoup4" = "==4.6.0"
+"beautifulsoup4" = "==4.7.1"
 
 [dev-packages]
 
